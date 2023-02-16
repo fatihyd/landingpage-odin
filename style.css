@@ -1,0 +1,138 @@
+@font-face {
+    font-family: PANIC;
+    src: url(./Panic.ttf);
+}
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+}
+
+.header, a, .main, .footer {
+    background-color: #1F2937;
+    color: #F9FAF8;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px;
+}
+
+.header h1 {
+    font-size: 36px;
+}
+.header a {
+    text-decoration: none;
+}
+
+.main h1, .main p {
+    color: #E5E7EB;
+}
+
+.main {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 64px;
+    padding-bottom: 120px;
+}
+
+.main .textbox {
+    max-width: 1000px;
+    font-size: 24px;
+}
+
+.main img {
+    border-radius: 50%;
+}
+
+.information {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.inspire {
+    background-color: #E5E7EB;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 96px;
+    padding-bottom: 96px;
+}
+
+.inspire p {
+    font-size: 36px;
+    text-align: center;
+    color: black;
+}
+
+.wait-what {
+    background-image: url(https://media.tenor.com/un_oJTlcI80AAAAC/spongebob-panic.gif);
+    color: white;
+    font-size: 48px;
+    font-family: PANIC;
+    text-align: center;
+    max-height: 320px;
+}
+
+.hacked {
+    background-image: url(https://media.tenor.com/IvyuPtEfzhoAAAAC/matrix.gif);
+    padding: 64px;
+}
+
+.hacked .image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot-dot-dot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 96px;
+    color: red;
+    background-color: #E5E7EB;
+    height: 500px;
+}
+
+.surprise {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 24px;
+}
+
+.sign-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sign-block .popup {
+    font-size: 24px;
+    color: #F9FAF8;
+    padding: 24px;
+    border: solid #3882F6;
+    background-color: #3882F6;
+    width: 450px;
+    height: 150px;
+    border-radius: 25px;
+    margin: 32px;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 24px;
+    font-size: 20px;
+}
+
+img {
+    border-radius: 25px;
+}
